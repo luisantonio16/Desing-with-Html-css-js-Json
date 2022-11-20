@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,300;1,200;1,400 & family= Open+Sans:wght@300;400;500;700 & family= Oxygen:wght@300;400;700 & family= Poppins:ital,wght@0,200;0,300;0,400;0,700;1,300;1,700 & display=swap');
+
+:root
+{
+   --Blue: hsl(246, 80%, 60%);
+   --Light-orange: hsl(15, 100%, 70%);
+   --Soft-blue : hsl(195, 74%, 62%);
+   --Light: hsl(348, 100%, 68%);
+   --Lime: hsl(145, 58%, 55%);
+   --Violet: hsl(264, 64%, 52%);
+   --Soft-orange: hsl(43, 84%, 65%);
+
+
+
+  --Very-dark-blue: hsl(226, 43%, 10%);
+  --Dark-blue: hsl(235, 46%, 20%);
+  --Desaturated-blue: hsl(235, 45%, 61%);
+  --Pale-Blue: hsl(236, 100%, 87%);
+
+}
+
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--Very-dark-blue);
+    color: var(--Pale-Blue);
+}
+
+.main-container{
+    width: 80%;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 0;
+    display: flex;
+   
+}
+
+.main-card
+{
+    width: 500px;
+    height: 500px;    
+    margin: 10px;
+}
+
+.card-user
+{
+    background-color: var(--Blue);
+    border-radius: 20px;
+    padding: 20px;
+    height: 340px;
+    position: relative;
+    top: 25px;
+    width: 290px;
+    z-index: 1;
+
+
+}
+
+.card-image-user
+{
+    width: 70px;
+    margin-bottom: 40px;   
+}
+
+.card-principal--title
+{
+    font-size: 14px;
+    color: white;
+}
+
+.card-principal--name
+{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.card-dates
+{
+    background-color: var(--Dark-blue);
+    padding: 20px;
+    border-radius: 20px; 
+    width: 290px;
+    height: 165px;
+}
+
+.card-frecuency{
+    margin: 20px;
+    font-size: 16px;
+}
+.card-frecuency:hover{
+    color: var(--Soft-blue);
+    cursor: pointer;
+
+}
+
+.container
+{
+    display: flex;
+    max-width: 950px;
+    height: 500px;
+    margin: auto;
+    padding-top: 10px; 
+    flex-wrap: wrap;
+
+}
+
+.first-card
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card-second
+{
+    width: 900px;  
+    margin-top: 10px;  
+}
+
+.card-background
+{
+    background-color: var(--Light-orange);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+
+  
+    
+}
+
+.card-image
+{
+     width: 16%;
+     margin-left: 190px;  
+     margin-bottom: 10px; 
+}
+
+.card-activity{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 10px;    
+}
+
+.card-title{
+    font-size: 20px;
+
+}
+
+
+.card{  
+    border-radius: 20px;
+    position: relative;
+    padding: 10px;
+    
+
+}
+
+.card-hours
+{
+    padding: 20px;
+     
+}
+.card-hour
+{
+    font-size: 50px;
+
+}
+.card-previous{
+    font-size: 18px;
+}
+
+.card-details{
+    background-color: var(--Dark-blue);
+    border-radius: 20px;
+    position: relative;
+    top: -15px;
+   font-size: 10px;
+
+}
+
+.card-details:hover{
+    background-color: var(--Desaturated-blue);
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width:500px)  {
+
+.main-container
+{
+     display: flex;
+     flex-direction: column;
+     width: 70%;
+     margin: auto;
+       
+}
+.main-card
+{
+    width: 350px;
+    height: 240px; 
+    margin: auto; 
+    padding: 10px;  
+}
+
+
+
+.card-user
+{
+    background-color: var(--Blue);
+    border-radius: 20px;
+    height: 120px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image-user
+{
+    width: 80px;
+    margin-top: 25px;
+    padding: 10px;   
+}
+
+.card-principal--title
+{
+    font-size: 10px;
+    color: white;
+}
+
+.card-principal--name
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.card-dates
+{
+    background-color: var(--Dark-blue);
+    padding: 20px;
+    border-radius: 20px; 
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.container
+{
+    width: 350px;
+    margin: auto;
+}
+
+.card-second
+{
+    width: 300px;  
+    margin-top: 10px;    
+}
+
+.card-background
+{
+    width: 300px;  
+}
+
+.card-details
+{
+   width: 300px;
+   height: 110px;
+
+}
+    
+
+.card-hours
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+  
+     
+}
+.card-hour
+{
+    font-size: 35px;
+}
+
+.card-previous{
+    font-size: 15px;
+}
+
+.card-activity{
+
+    padding: 10px;
+    font-size: 10px;    
+}
+.card-image
+{
+    width: 50px;
+    margin-left: 230px;   
+}
+}
