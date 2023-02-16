@@ -45,12 +45,12 @@ function drawElmnt(array){
         cardSecond.innerHTML +=`
         <div class="card">
           <div class="card-background" style ="background-color:${background[index]};">
-          <img class="card-image" src="./Image/icon-${titleimg}.svg" alt="./Image/icon-work.svg">
+          <img class="card-image" src="/image/icon-${titleimg}.svg" alt="/image/icon-work.svg">
           </div>
             <div class="card-details">
                 <div class="card-activity">
                  <p class="card-title">${tilte}</p>
-                 <img class="image" src="./Image/icon-ellipsis.svg" alt="Image">
+                 <img class="image" src="/image/icon-ellipsis.svg" alt="Image">
                 </div>
              <div class="card-hours">
                  <p class="card-hour">${element.current}Hrs</p>
