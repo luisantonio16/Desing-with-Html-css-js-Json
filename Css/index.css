@@ -273,7 +273,7 @@ body
 .card-second
 {
     width: 300px;  
-    margin-top: 10px;    
+   margin: 10px auto;  
 }
 
 .card-background
