@@ -45,7 +45,7 @@ function drawElmnt(array){
         cardSecond.innerHTML +=`
         <div class="card">
           <div class="card-background" style ="background-color:${background[index]};">
-          <img class="card-image" src="./Image/icon-${titleimggi}.svg" alt="./Image/icon-work.svg">
+          <img class="card-image" src="./Image/icon-${titleimg}.svg" alt="./Image/icon-work.svg">
           </div>
           <div class="card-details">
              <div class="card-activity">
@@ -62,3 +62,5 @@ function drawElmnt(array){
     })
 
 }
+
+drawElmnt(weeklyarrays);

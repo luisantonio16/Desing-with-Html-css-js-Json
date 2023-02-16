@@ -96,6 +96,11 @@ body
     margin: 20px;
     font-size: 16px;
 }
+.active{
+    color: var(--Soft-blue);
+
+
+}
 .card-frecuency:hover{
     color: var(--Soft-blue);
     cursor: pointer;
