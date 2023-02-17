@@ -211,9 +211,6 @@ body
 }
 .main-card
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 350px;
     height: 240px; 
     margin: auto; 
