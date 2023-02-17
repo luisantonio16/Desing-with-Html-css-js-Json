@@ -228,9 +228,7 @@ body
     border-radius: 20px;
     height: 120px;
     width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
 }
 
 .card-image-user
