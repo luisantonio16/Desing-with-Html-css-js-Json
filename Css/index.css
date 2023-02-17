@@ -118,12 +118,7 @@ body
 
 }
 
-.first-card
-{
-    display: flex;
-    flex-wrap: wrap;
 
-}
 
 .card-second
 {
@@ -215,6 +210,9 @@ body
 }
 .main-card
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 350px;
     height: 240px; 
     margin: auto; 
@@ -229,9 +227,6 @@ body
     border-radius: 20px;
     height: 120px;
     width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .card-image-user
